@@ -11,8 +11,8 @@ Can we predict if a person could have a stroke or is likely to have a stroke fro
 ### The Data:
 The data consisted of 5110 rows, and 11 columns as listed below. The Data came from Kaggle: https://www.kaggle.com/code/sujithmandala/stroke-prediction-xgboost-99-3-auc
 Attribute Information
-| Variable Name.        |Description                                                                                                               |
------------------------------------------------------------------------------------------------------------------|
+| Variable Name.        |Description                                                                                                               
+|------------------------|----------------------------------------------------------------------------------------|
 |1) id:                 |unique identifier                                                                       |
 |2) gender:             |"Male", "Female" or "Other"                                                             |
 |3) age:                |age of the patient                                                                      |
