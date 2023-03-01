@@ -31,3 +31,6 @@ Attribute Information
 I removed Gender other and used SimpleImputer from scikitlearn to impute the missing values for 'bmi' on the training data to avoid data leakage.
 
 ### Insights from Visualizing the Data:
+![Unknown](https://user-images.githubusercontent.com/116525770/222199330-e106179f-f5da-42cd-9579-2abeeb7d9aab.png)
+
+
