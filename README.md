@@ -52,19 +52,19 @@ I removed Gender other and used SimpleImputer from scikitlearn to impute the mis
 > This Bar Plot shows that Heart Disease has a larger affect on the probability of a stroke, more so in men than women.
 
 ### Modeling:
-I chose to try XGBoost, Random Forest, and KNeighbors. The model I chose to use was Random Forest with a SMOTE pipeline, to even out my training data, which was highly skewed to negative for stroke.  I then used GridSearchCV to hypertune the parameters. The model has an accurcy score of 91% it also had the least amount of false negatives.
+I chose to try XGBoost, Random Forest, and KNeighbors. The model I chose to use was KNN with a SMOTE pipeline, to even out my training data, which was highly skewed to negative for stroke.  I then used GridSearchCV to hypertune the parameters. The model has an accurcy score of 82% it also had the least amount of false positives and highest number of true positives.
 
 ### Limatations and Next Steps:
 The model could be tuned more and explore data that might add to the predictabilty of the model to improve accuray. My next step would be to continue to work with the current models and to expirement with others to get more accurate results.
 A person could use the visuals to see there risk of stroke and try to lower that risk by lifestyle changes.
 
 ### Recomendations:
-While analyzing the data the biggest factors to stroke seem to be Heart Disease, Former/Current smoker, and Glucose Level. These should be the things to take into consideration. There are more than just those factors but they have a very strong correlation to stroke dianosis. Adding information to the data set such as, exercise, diet habits, blood pressure, and alcohol use may help with machine learning model. I would recomend the following:
-Keep a healthy diet cut some sugar to lower glucose levels.
-Keep a healthy weight. 
-Get regular physical activity. 
-Don't smoke. 
-If you have Heart Disease consult your doctor on ways to prevent strokes.
+While analyzing the data the biggest factors to stroke seem to be Heart Disease, Former/Current smoker, and Glucose Level. These should be the things to take into consideration. There are more than just those factors but they have a very strong correlation to stroke diagnosis. Adding information to the data set such as, exercise, diet habits, blood pressure, and alcohol use may help with machine learning model. I would recomend the following:
+  - Keep a healthy diet cut some sugar to lower glucose levels.
+  - Keep a healthy weight. 
+  - Get regular physical activity. 
+  - Don't smoke. 
+  - If you have Heart Disease consult a doctor on ways to prevent strokes.
 
 ### For further information:
 
